@@ -1,268 +1,423 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Black Pepper | Chef Privado Premium</title>
-<meta name="description" content="Llevamos una cocina de nivel gastronómico a tu casa, empresa o evento. Chef privado y catering premium para eventos de 12 a 400 personas.">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Pepper | Chef Privado Premium</title>
+  <meta name="description"
+    content="Llevamos una cocina de nivel gastronómico a tu casa, empresa o evento. Chef privado y catering premium para eventos de 12 a 400 personas.">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- NAV -->
-<nav>
-  <div class="nav-logo">Black<span>•</span>Pepper</div>
-  <a href="https://wa.me/1234567890?text=Hola%2C%20quiero%20cotizar%20un%20evento" class="nav-cta" target="_blank">Cotizar evento</a>
-</nav>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Black<span>•</span>Pepper</div>
+    <a href="https://wa.me/1234567890?text=Hola%2C%20quiero%20cotizar%20un%20evento" class="nav-cta"
+      target="_blank">Cotizar evento</a>
+  </nav>
 
-<!-- ══════════════ SECCIÓN 1: HERO ══════════════ -->
-<section id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-line"></div>
+  <!-- ══════════════ SECCIÓN 1: HERO ══════════════ -->
+  <section id="hero">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-bg"></div>
+    <div class="hero-line"></div>
 
-  <div class="hero-eyebrow">Chef Privado &amp; Catering Premium</div>
+    <div class="hero-eyebrow" data-anim="fade-left">Chef Privado &amp; Catering Premium</div>
 
-  <h1 class="hero-title">
-    Tu evento,<br>
-    <em>elevado.</em><br>
-    <span class="outline">Sin límites.</span>
-  </h1>
+    <h1 class="hero-title" data-anim="fade-up">
+      Tu evento,<br>
+      <em>elevado.</em><br>
+      <span class="outline">Sin límites.</span>
+    </h1>
 
-  <p class="hero-sub">
-    Llevamos una cocina de nivel gastronómico a tu casa, empresa o evento. Tú disfrutas. Nosotros resolvemos todo.
-  </p>
+    <p class="hero-sub" data-anim="fade-up" style="--delay:0.2s">
+      Llevamos una cocina de nivel gastronómico a tu casa, empresa o evento. Tú disfrutas. Nosotros resolvemos todo.
+    </p>
 
-  <div class="hero-actions">
-    <a href="https://wa.me/1234567890?text=Hola%2C%20quiero%20cotizar%20un%20evento" class="btn-primary" target="_blank">Cotizar mi evento</a>
-    <a href="#vsl" class="btn-ghost">Ver en acción</a>
-  </div>
-
-  <div class="hero-stats">
-    <div class="stat">
-      <div class="stat-num">1</div>
-      <div class="stat-label">Cliente por día</div>
+    <div class="hero-actions" data-anim="fade-up" style="--delay:0.35s">
+      <a href="https://wa.me/1234567890?text=Hola%2C%20quiero%20cotizar%20un%20evento" class="btn-primary"
+        target="_blank">Cotizar mi evento</a>
+      <a href="#vsl" class="btn-ghost">Ver en acción</a>
     </div>
-    <div class="stat">
-      <div class="stat-num">400</div>
-      <div class="stat-label">Personas máx.</div>
+
+    <div class="hero-stats" data-anim="fade-right" style="--delay:0.5s">
+      <div class="stat">
+        <div class="stat-num" data-count="1">1</div>
+        <div class="stat-label">Cliente por día</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="400">400</div>
+        <div class="stat-label">Personas máx.</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="100" data-suffix="%">100%</div>
+        <div class="stat-label">Personalizado</div>
+      </div>
     </div>
-    <div class="stat">
-      <div class="stat-num">100%</div>
-      <div class="stat-label">Personalizado</div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- ══════════════ SECCIÓN 2: VSL ══════════════ -->
-<section id="vsl">
-  <div class="vsl-inner">
-    <div class="section-eyebrow">Mirá cómo trabajamos</div>
-    <h2 class="section-title">La experiencia que <em>tu evento merece</em></h2>
-    <p class="section-sub">Un espectáculo gastronómico que arranca en la parrilla y termina en la mesa.</p>
+  <!-- ══════════════ SECCIÓN 2: VSL ══════════════ -->
+  <section id="vsl">
+    <div class="vsl-inner">
+      <div class="section-eyebrow" data-anim="scale">Mirá cómo trabajamos</div>
+      <h2 class="section-title" data-anim="fade-up" style="--delay:0.1s">La experiencia que <em>tu evento merece</em>
+      </h2>
+      <p class="section-sub" data-anim="fade-up" style="--delay:0.2s">Un espectáculo gastronómico que arranca en la
+        parrilla y termina en la mesa.</p>
 
-    <div class="vsl-frame">
-      <div class="vsl-grid-lines"></div>
-      <div class="vsl-corner tl"></div>
-      <div class="vsl-corner tr"></div>
-      <div class="vsl-corner bl"></div>
-      <div class="vsl-corner br"></div>
+      <div class="vsl-frame" data-anim="flip" style="--delay:0.3s">
+        <div class="vsl-grid-lines"></div>
+        <div class="vsl-corner tl"></div>
+        <div class="vsl-corner tr"></div>
+        <div class="vsl-corner bl"></div>
+        <div class="vsl-corner br"></div>
 
-      <div class="vsl-placeholder">
-        <div class="play-btn">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 5v14l11-7z"/>
-          </svg>
+        <div class="vsl-placeholder">
+          <div class="play-btn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
+          <div class="vsl-placeholder-text">Video próximamente · Black Pepper</div>
         </div>
-        <div class="vsl-placeholder-text">Video próximamente · Black Pepper</div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ══════════════ SECCIÓN 3: EXPERIENCIA ══════════════ -->
-<section id="experiencia">
-  <div class="exp-header reveal">
-    <div class="section-eyebrow" style="justify-content:flex-start; margin-left:0;">
-      <span style="margin-left:0;"></span>Lo que ofrecemos
-    </div>
-    <h2 class="section-title" style="font-size:clamp(2rem,4vw,3.2rem);">Una cocina <em>de autor</em>,<br>en tu espacio.</h2>
-  </div>
-
-  <div class="exp-grid reveal">
-    <div class="exp-card">
-      <div class="exp-num">01</div>
-      <span class="exp-icon">🔥</span>
-      <h3 class="exp-card-title">Parrillada <em>Premium</em></h3>
-      <p class="exp-card-body">Cortes seleccionados, cocción en vivo y presentación de nivel restaurante. Para 12 hasta 400 personas con el mismo nivel de detalle.</p>
-      <span class="exp-tag">Desde 12 pax</span>
-    </div>
-
-    <div class="exp-card">
-      <div class="exp-num">02</div>
-      <span class="exp-icon">🍖</span>
-      <h3 class="exp-card-title">Rodizio <em>en vivo</em></h3>
-      <p class="exp-card-body">La experiencia de un restaurante premium viaja a tu casa. Servicio continuo, carnes exóticas y el espectáculo de la cocina abierta.</p>
-      <span class="exp-tag">Experiencia total</span>
-    </div>
-
-    <div class="exp-card">
-      <div class="exp-num">03</div>
-      <span class="exp-icon">🍔</span>
-      <h3 class="exp-card-title">Casual <em>Luxury</em></h3>
-      <p class="exp-card-body">Hamburguesas con carnes especiales y menús personalizados para eventos informales que siguen siendo extraordinarios.</p>
-      <span class="exp-tag">Personalizable</span>
-    </div>
-  </div>
-
-  <div class="exclusivity-banner reveal">
-    <div>
-      <div class="exc-label">Nuestro diferenciador</div>
-      <div class="exc-title">Solo 1 cliente por día.</div>
-    </div>
-    <div class="exc-desc">
-      No somos una empresa masiva. Cada evento recibe nuestra atención completa — equipo, logística, menú y presencia del chef desde la primera llama hasta el último plato.
-    </div>
-    <a href="https://wa.me/1234567890?text=Hola%2C%20quiero%20cotizar%20un%20evento" class="btn-primary" target="_blank" style="white-space:nowrap; flex-shrink:0;">Reservar mi fecha</a>
-  </div>
-</section>
-
-<!-- ══════════════ SECCIÓN 4: PAQUETES ══════════════ -->
-<section id="paquetes">
-  <div class="pkg-header reveal">
-    <div class="section-eyebrow">Inversión</div>
-    <h2 class="section-title">Elige tu <em>experiencia</em></h2>
-    <p class="section-sub">Tres escalones diseñados para distintos momentos y grupos.</p>
-  </div>
-
-  <div class="pkg-grid reveal">
-
-    <!-- PAQUETE 1 -->
-    <div class="pkg-card">
-      <div class="pkg-tier">Acceso · Esencial</div>
-      <div class="pkg-name">The Classic</div>
-      <div class="pkg-pax">12 – 30 personas · Eventos íntimos</div>
-      <div class="pkg-price"><sup>$</sup>14</div>
-      <div class="pkg-price-label">por persona · precio de referencia</div>
-      <ul class="pkg-features">
-        <li>Menú de parrillada clásica</li>
-        <li>Chef + 1 ayudante</li>
-        <li>Equipamiento básico incluido</li>
-        <li>Coordinación de logística</li>
-        <li>Menú personalizable</li>
-      </ul>
-      <a href="https://wa.me/1234567890?text=Me%20interesa%20el%20paquete%20Classic" class="btn-pkg" target="_blank">Consultar disponibilidad</a>
-    </div>
-
-    <!-- PAQUETE 2 FEATURED -->
-    <div class="pkg-card featured">
-      <div class="pkg-tier">Experiencia · Premium</div>
-      <div class="pkg-name">The Signature</div>
-      <div class="pkg-pax">30 – 100 personas · Eventos sociales</div>
-      <div class="pkg-price"><sup>$</sup>35</div>
-      <div class="pkg-price-label">por persona · precio de referencia</div>
-      <ul class="pkg-features">
-        <li>Menú premium con cortes seleccionados</li>
-        <li>Chef + equipo completo + meseros</li>
-        <li>Toldos, mesas y sillas disponibles</li>
-        <li>Rodizio opcional en vivo</li>
-        <li>Servicio de punta a punta</li>
-        <li>Menú 100% personalizado</li>
-      </ul>
-      <a href="https://wa.me/1234567890?text=Me%20interesa%20el%20paquete%20Signature" class="btn-pkg" target="_blank">Reservar este paquete</a>
-    </div>
-
-    <!-- PAQUETE 3 -->
-    <div class="pkg-card">
-      <div class="pkg-tier">Elite · Full Service</div>
-      <div class="pkg-name">The Grand</div>
-      <div class="pkg-pax">100 – 400 personas · Eventos corporativos</div>
-      <div class="pkg-price"><sup>$</sup>65</div>
-      <div class="pkg-price-label">por persona · precio de referencia</div>
-      <ul class="pkg-features">
-        <li>Carnes premium y exóticas</li>
-        <li>Equipo completo + coordinación total</li>
-        <li>Montaje y desmontaje incluido</li>
-        <li>Múltiples estaciones de cocción</li>
-        <li>Experiencia gastronómica de autor</li>
-        <li>Logística y planificación integral</li>
-      </ul>
-      <a href="https://wa.me/1234567890?text=Me%20interesa%20el%20paquete%20Grand" class="btn-pkg" target="_blank">Solicitar propuesta</a>
-    </div>
-
-  </div>
-</section>
-
-<!-- ══════════════ SECCIÓN 5: CIERRE / CTA ══════════════ -->
-<section id="cierre">
-  <div class="cierre-bg"></div>
-
-  <div class="cierre-quote reveal">
-    "Tu próximo evento merece<br><em>algo extraordinario.</em>"
-  </div>
-  <p class="cierre-sub reveal">Contanos cuándo, cuántos y qué querés lograr. Hacemos el resto.</p>
-
-  <div class="form-wrap reveal">
-    <div class="form-grid">
-      <div class="form-field">
-        <label>Tu nombre</label>
-        <input type="text" placeholder="Alberto Rangel">
+  <!-- ══════════════ SECCIÓN 3: EXPERIENCIA ══════════════ -->
+  <section id="experiencia">
+    <div class="exp-header">
+      <div class="section-eyebrow" style="justify-content:flex-start; margin-left:0;" data-anim="fade-left">
+        <span style="margin-left:0;"></span>Lo que ofrecemos
       </div>
-      <div class="form-field">
-        <label>Fecha del evento</label>
-        <input type="date">
+      <h2 class="section-title" style="font-size:clamp(2rem,4vw,3.2rem);" data-anim="fade-up" style="--delay:0.1s">Una
+        cocina <em>de autor</em>,<br>en tu espacio.</h2>
+    </div>
+
+    <div class="exp-grid">
+      <div class="exp-card" data-anim="fade-up">
+        <div class="exp-num">01</div>
+        <span class="exp-icon">🔥</span>
+        <h3 class="exp-card-title">Parrillada <em>Premium</em></h3>
+        <p class="exp-card-body">Cortes seleccionados, cocción en vivo y presentación de nivel restaurante. Para 12
+          hasta 400 personas con el mismo nivel de detalle.</p>
+        <span class="exp-tag">Desde 12 pax</span>
       </div>
-      <div class="form-field">
-        <label>Número de personas</label>
-        <input type="number" placeholder="Ej: 50">
+
+      <div class="exp-card" data-anim="fade-up" style="--delay:0.12s">
+        <div class="exp-num">02</div>
+        <span class="exp-icon">🍖</span>
+        <h3 class="exp-card-title">Rodizio <em>en vivo</em></h3>
+        <p class="exp-card-body">La experiencia de un restaurante premium viaja a tu casa. Servicio continuo, carnes
+          exóticas y el espectáculo de la cocina abierta.</p>
+        <span class="exp-tag">Experiencia total</span>
       </div>
-      <div class="form-field">
-        <label>Tipo de evento</label>
-        <select>
-          <option value="" disabled selected>Seleccionar...</option>
-          <option>Reunión privada (12–30 pax)</option>
-          <option>Evento social (30–100 pax)</option>
-          <option>Evento corporativo (100+ pax)</option>
-          <option>Rodizio en vivo</option>
-          <option>Personalizado</option>
-        </select>
+
+      <div class="exp-card" data-anim="fade-up" style="--delay:0.24s">
+        <div class="exp-num">03</div>
+        <span class="exp-icon">🍔</span>
+        <h3 class="exp-card-title">Casual <em>Luxury</em></h3>
+        <p class="exp-card-body">Hamburguesas con carnes especiales y menús personalizados para eventos informales que
+          siguen siendo extraordinarios.</p>
+        <span class="exp-tag">Personalizable</span>
       </div>
     </div>
-    <a href="https://wa.me/1234567890?text=Hola%2C%20quiero%20cotizar%20mi%20evento%20con%20Black%20Pepper" class="btn-submit" target="_blank">
-      <svg class="wsp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-      </svg>
-      Enviar por WhatsApp y cotizar
-    </a>
-  </div>
 
-  <div class="cierre-trust reveal">
-    <span class="trust-item">1 cliente por día</span>
-    <span class="trust-item">12 a 400 personas</span>
-    <span class="trust-item">Menú personalizado</span>
-    <span class="trust-item">Evento resuelto de punta a punta</span>
-  </div>
-</section>
+    <div class="exclusivity-banner" data-anim="scale">
+      <div>
+        <div class="exc-label">Nuestro diferenciador</div>
+        <div class="exc-title">Solo 1 cliente por día.</div>
+      </div>
+      <div class="exc-desc">
+        No somos una empresa masiva. Cada evento recibe nuestra atención completa — equipo, logística, menú y presencia
+        del chef desde la primera llama hasta el último plato.
+      </div>
+      <a href="https://wa.me/1234567890?text=Hola%2C%20quiero%20cotizar%20un%20evento" class="btn-primary"
+        target="_blank" style="white-space:nowrap; flex-shrink:0;">Reservar mi fecha</a>
+    </div>
+  </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-logo">BLACK • PEPPER</div>
-  <div class="footer-copy">© 2025 Alberto Rangel · Chef Privado &amp; Catering Premium</div>
-</footer>
+  <!-- ══════════════ SECCIÓN 4: PAQUETES ══════════════ -->
+  <section id="paquetes">
+    <div class="pkg-header">
+      <div class="section-eyebrow" data-anim="scale">Inversión</div>
+      <h2 class="section-title" data-anim="fade-up" style="--delay:0.1s">Elige tu <em>experiencia</em></h2>
+      <p class="section-sub" data-anim="fade-up" style="--delay:0.2s">Tres escalones diseñados para distintos momentos y
+        grupos.</p>
+    </div>
 
-<script>
-  // Reveal on scroll
-  const reveals = document.querySelectorAll('.reveal');
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry, i) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 100);
-        observer.unobserve(entry.target);
+    <div class="pkg-grid">
+
+      <!-- PAQUETE 1 -->
+      <div class="pkg-card" data-anim="fade-up">
+        <div class="pkg-tier">Acceso · Esencial</div>
+        <div class="pkg-name">The Classic</div>
+        <div class="pkg-pax">12 – 30 personas · Eventos íntimos</div>
+        <div class="pkg-price"><sup>$</sup>14</div>
+        <div class="pkg-price-label">por persona · precio de referencia</div>
+        <ul class="pkg-features">
+          <li>Menú de parrillada clásica</li>
+          <li>Chef + 1 ayudante</li>
+          <li>Equipamiento básico incluido</li>
+          <li>Coordinación de logística</li>
+          <li>Menú personalizable</li>
+        </ul>
+        <a href="https://wa.me/1234567890?text=Me%20interesa%20el%20paquete%20Classic" class="btn-pkg"
+          target="_blank">Consultar disponibilidad</a>
+      </div>
+
+      <!-- PAQUETE 2 FEATURED -->
+      <div class="pkg-card featured" data-anim="fade-up" style="--delay:0.15s">
+        <div class="pkg-tier">Experiencia · Premium</div>
+        <div class="pkg-name">The Signature</div>
+        <div class="pkg-pax">30 – 100 personas · Eventos sociales</div>
+        <div class="pkg-price"><sup>$</sup>35</div>
+        <div class="pkg-price-label">por persona · precio de referencia</div>
+        <ul class="pkg-features">
+          <li>Menú premium con cortes seleccionados</li>
+          <li>Chef + equipo completo + meseros</li>
+          <li>Toldos, mesas y sillas disponibles</li>
+          <li>Rodizio opcional en vivo</li>
+          <li>Servicio de punta a punta</li>
+          <li>Menú 100% personalizado</li>
+        </ul>
+        <a href="https://wa.me/1234567890?text=Me%20interesa%20el%20paquete%20Signature" class="btn-pkg"
+          target="_blank">Reservar este paquete</a>
+      </div>
+
+      <!-- PAQUETE 3 -->
+      <div class="pkg-card" data-anim="fade-up" style="--delay:0.3s">
+        <div class="pkg-tier">Elite · Full Service</div>
+        <div class="pkg-name">The Grand</div>
+        <div class="pkg-pax">100 – 400 personas · Eventos corporativos</div>
+        <div class="pkg-price"><sup>$</sup>65</div>
+        <div class="pkg-price-label">por persona · precio de referencia</div>
+        <ul class="pkg-features">
+          <li>Carnes premium y exóticas</li>
+          <li>Equipo completo + coordinación total</li>
+          <li>Montaje y desmontaje incluido</li>
+          <li>Múltiples estaciones de cocción</li>
+          <li>Experiencia gastronómica de autor</li>
+          <li>Logística y planificación integral</li>
+        </ul>
+        <a href="https://wa.me/1234567890?text=Me%20interesa%20el%20paquete%20Grand" class="btn-pkg"
+          target="_blank">Solicitar propuesta</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════ SECCIÓN 5: CIERRE / CTA ══════════════ -->
+  <section id="cierre">
+    <div class="cierre-bg"></div>
+
+    <div class="cierre-quote" data-anim="fade-up">
+      "Tu próximo evento merece<br><em>algo extraordinario.</em>"
+    </div>
+    <p class="cierre-sub" data-anim="fade-up" style="--delay:0.15s">Contanos cuándo, cuántos y qué querés lograr.
+      Hacemos el resto.</p>
+
+    <div class="form-wrap" data-anim="scale" style="--delay:0.25s">
+      <div class="form-grid">
+        <div class="form-field">
+          <label>Tu nombre</label>
+          <input type="text" placeholder="Alberto Rangel">
+        </div>
+        <div class="form-field">
+          <label>Fecha del evento</label>
+          <input type="date">
+        </div>
+        <div class="form-field">
+          <label>Número de personas</label>
+          <input type="number" placeholder="Ej: 50">
+        </div>
+        <div class="form-field">
+          <label>Tipo de evento</label>
+          <select>
+            <option value="" disabled selected>Seleccionar...</option>
+            <option>Reunión privada (12–30 pax)</option>
+            <option>Evento social (30–100 pax)</option>
+            <option>Evento corporativo (100+ pax)</option>
+            <option>Rodizio en vivo</option>
+            <option>Personalizado</option>
+          </select>
+        </div>
+      </div>
+      <a href="https://wa.me/1234567890?text=Hola%2C%20quiero%20cotizar%20mi%20evento%20con%20Black%20Pepper"
+        class="btn-submit" target="_blank">
+        <svg class="wsp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        Enviar por WhatsApp y cotizar
+      </a>
+    </div>
+
+    <div class="cierre-trust" data-anim="fade-up" style="--delay:0.4s">
+      <span class="trust-item">1 cliente por día</span>
+      <span class="trust-item">12 a 400 personas</span>
+      <span class="trust-item">Menú personalizado</span>
+      <span class="trust-item">Evento resuelto de punta a punta</span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">BLACK • PEPPER</div>
+    <div class="footer-copy">© 2025 Alberto Rangel · Chef Privado &amp; Catering Premium</div>
+  </footer>
+
+  <script>
+    // ══════════════════════════════════
+    // 1. SCROLL REVEAL (data-anim)
+    // ══════════════════════════════════
+    const animEls = document.querySelectorAll('[data-anim]');
+    const animObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const delay = el.style.getPropertyValue('--delay') || '0s';
+          el.style.transitionDelay = delay;
+          el.classList.add('in-view');
+          animObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.12 });
+    animEls.forEach(el => animObserver.observe(el));
+
+    // Also keep old .reveal support
+    const revealEls = document.querySelectorAll('.reveal');
+    const revObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+          revObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => revObserver.observe(el));
+
+    // ══════════════════════════════════
+    // 2. HERO PARTICLES
+    // ══════════════════════════════════
+    const particleContainer = document.getElementById('particles');
+    const PARTICLE_COUNT = 18;
+    for (let i = 0; i < PARTICLE_COUNT; i++) {
+      const p = document.createElement('span');
+      p.className = 'particle';
+      const size = Math.random() * 3 + 2;
+      p.style.cssText = `
+    width: ${size}px;
+    height: ${size}px;
+    left: ${Math.random() * 100}%;
+    bottom: ${Math.random() * 40}%;
+    animation-duration: ${4 + Math.random() * 6}s;
+    animation-delay: ${Math.random() * 5}s;
+    opacity: 0;
+    filter: blur(${Math.random() > 0.5 ? 1 : 0}px);
+  `;
+      particleContainer.appendChild(p);
+    }
+
+    // ══════════════════════════════════
+    // 3. ANIMATED COUNTERS
+    // ══════════════════════════════════
+    function animateCounter(el) {
+      const target = parseInt(el.dataset.count);
+      const suffix = el.dataset.suffix || '';
+      const duration = 1800;
+      const startTime = performance.now();
+      const easeOut = t => 1 - Math.pow(1 - t, 3);
+      function update(now) {
+        const progress = Math.min((now - startTime) / duration, 1);
+        el.textContent = Math.round(easeOut(progress) * target) + suffix;
+        if (progress < 1) requestAnimationFrame(update);
       }
-    });
-  }, { threshold: 0.1 });
+      requestAnimationFrame(update);
+    }
+    const counterEls = document.querySelectorAll('[data-count]');
+    const counterObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    counterEls.forEach(el => counterObserver.observe(el));
 
-  reveals.forEach(el => observer.observe(el));
-</script>
+    // ══════════════════════════════════
+    // 4. HERO PARALLAX ON SCROLL
+    // ══════════════════════════════════
+    const heroTitle = document.querySelector('.hero-title');
+    const heroSub = document.querySelector('.hero-sub');
+    const heroBg = document.querySelector('.hero-bg');
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY;
+      if (heroTitle) heroTitle.style.transform = `translateY(${y * 0.18}px)`;
+      if (heroSub) heroSub.style.transform = `translateY(${y * 0.1}px)`;
+      if (heroBg) heroBg.style.transform = `translateY(${y * 0.25}px)`;
+    }, { passive: true });
+
+    // ══════════════════════════════════
+    // 5. NAVBAR SCROLL GLASS EFFECT
+    // ══════════════════════════════════
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) {
+        nav.style.background = 'rgba(11,13,15,0.95)';
+        nav.style.backdropFilter = 'blur(12px)';
+        nav.style.borderBottom = '1px solid rgba(163,90,42,0.15)';
+      } else {
+        nav.style.background = 'linear-gradient(to bottom, rgba(11,13,15,0.95), transparent)';
+        nav.style.backdropFilter = '';
+        nav.style.borderBottom = '';
+      }
+    }, { passive: true });
+
+    // ══════════════════════════════════
+    // 6. MAGNETIC HOVER on exp-cards
+    // ══════════════════════════════════
+    document.querySelectorAll('.exp-card').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const rect = card.getBoundingClientRect();
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
+        const dx = (e.clientX - cx) / rect.width * 10;
+        const dy = (e.clientY - cy) / rect.height * 10;
+        card.style.transform = `translateY(-6px) rotateY(${dx}deg) rotateX(${-dy}deg) scale(1.01)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+        card.style.transition = 'transform 0.6s cubic-bezier(0.16,1,0.3,1), box-shadow 0.4s';
+      });
+    });
+
+    // ══════════════════════════════════
+    // 7. CURSOR GLOW
+    // ══════════════════════════════════
+    const glow = document.createElement('div');
+    glow.style.cssText = `
+  position: fixed; pointer-events: none; z-index: 9998;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(163,90,42,0.07) 0%, transparent 70%);
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+  transition: opacity 0.3s;
+  top: 0; left: 0;
+`;
+    document.body.appendChild(glow);
+    document.addEventListener('mousemove', e => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top = e.clientY + 'px';
+    });
+  </script>
 </body>
+
 </html>
